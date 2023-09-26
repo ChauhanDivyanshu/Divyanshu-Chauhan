@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Divyanshu - Developer Protofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            ;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.3rem;
+        }
+        .leftSection .buttons{
+            padding: 10px 0;
+        }
+        .leftSection .btn{
+            margin-top: 1.2rem;
+            margin-right: 0.5rem;
+            height: 40px;
+            width: 136px;
+            font-size: 0.9rem;
+            background-color: #8315b2;
+            color: white;
+            border: none;
+            border-radius: 20px;
+        }
+        
+         .leftSection .btn:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            transform-style: flat;
+        
+        }
+        .rightSection img {
+            width: 120%;
+
+
+        }
+
+        .purple {
+            color: rgb(168, 103, 229);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(168, 103, 229);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .image-top {
+            width: 31.6px;
+            position: relative;
+            top: -35px;
+            left: -12px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            
+
+        } 
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+        .footer ul{
+             list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Divyanshu's Portofolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">about</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Divyanshu Chauhan</span>
+
+                <div>and I am passionate</div>
+                <span id="element"></span>
+                <div class = "buttons">
+                    <button class = "btn">Download Resume</button>
+                    <button class = "btn">Visit Github</button>
+                </div>
+
+
+            </div>
+            <div class="rightSection">
+                <img src="web.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Software Developer (2019-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        A natus minima similique cupiditate neque autem quaerat
+                        vitae omnis quasi reprehenderit laborum, saepe alias aperiam?
+                        Ducimus vero corrupti ut sunt maxime!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="socity.png" alt="">
+                    <div class="vertical-title">
+                        Database Management (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        In this Application various report are created to spool the data
+                        from database system and present to the user. The most of the
+                        reports in Excel and DBF formats. Also, window forms are created
+                        to make daily data entries done by users. This application is use
+                        complete information of asset management products and services.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2019-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Interactive Login and Registration Form Using HTML, CSS & JavaScript:
+                        The project utilizes HTML for structuring the form, CSS for styling
+                        and layout, and JavaScript for form validation and submission.(December '22)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c++.png" alt="">
+                    <div class="vertical-title">
+                        C++ Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Dairy Management System (Programming language C++):
+                        The “Dairy Management System” showcased here represents
+                        a cutting-edge C++ project designed to revolutionize the
+                        very core of your milk dairy enterprise.(March '23)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="vertical-title">
+                        React Native Developer (Learning-23)
+                    </div>
+                    <div class="vertical-desc">
+                        React Native is a used for mobile app developmentIt is used to develop
+                        applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows
+                        and UWP by enabling developers to use the React framework along with
+                        native platform capabilities.(Present)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Java.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2019-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        FitnessTrackerApp Development: The Health and Fitness Tracker is a Java GUI application
+                        designed to assist users in monitoring their daily physical activities and maintaining
+                        a healthy lifestyle. This application allows users to track important fitness metrics
+                        such as steps taken, distance covered, and calories burned.
+                    </div>
+                </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Divyanshu Developer Portofolio</h3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Email:</li>
+                </ul>
+            </div>
+            <div class="footer-Third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Email:</li>
+                </ul>
+
+            </div>
+            <div class="footer-Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Email:</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyrights &#169; divyanshuchauhanportfolio.com | All rights reserved
+        </div>
+
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'App Development', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
